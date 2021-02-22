@@ -1,0 +1,68 @@
+@font-face {
+  src: url("../font/IRANSansWeb.ttf");
+  font-family: "iransans";
+}
+
+.color-red{
+    color: tomato;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  padding: 50px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .colors {
+    margin-top: 60px;
+    h5 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &-boxes {
+      margin: 0 65px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      &-singleBox {
+        margin: 5px;
+        &-color {
+          width: 80px;
+          height: 80px;
+          box-shadow: 1px 1px 5px #4444;
+          border-radius: 5px;
+        }
+
+        &-text {
+          text-align: center;
+          margin-top: 5px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  &-center {
+    direction: rtl;
+    margin: 5px 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    & div {
+      width: 300px;
+      text-align: center;
+      margin: 50px 20px 10px 20px;
+      border-radius: 5px;
+      color: #646464;
+      border: 1px solid #e1e1e1;
+      box-shadow: 1px 1px 2px #e1e1e1;
+      padding: 10px 25px;
+    }
+  }
+}
